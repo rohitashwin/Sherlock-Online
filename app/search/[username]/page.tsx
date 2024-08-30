@@ -87,7 +87,7 @@ export default function SearchPage({ params, searchParams }: { params: { usernam
                     <Image src='/hat-logo.svg' width={50} height={50} alt='Logo' className='text-gray-300' />
                 </Link>
             </header>
-            <div className='w-full max-w-[600px] mt-20 flex flex-col items-center'>
+            <div className='w-full max-w-[600px] mt-20 my-[10px] flex flex-col items-center'>
                 {results.map(({ site, url, exists, isNSFW }) => (
                     exists &&
                     <SearchResult
